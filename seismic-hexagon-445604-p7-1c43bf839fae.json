@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "seismic-hexagon-445604-p7",
+  "private_key_id": "1c43bf839faec057f1ebe4372eb474e04bfdc66b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDU+XpZLhC0Ayub\nqcJMJyQedxNSMqlevYE8F+cBiPc6RLfYFT/DsQO1f4jO1tT4iughxgH8PytYOFOQ\nkJEH2vzuoBG682EAhNDa8UGY9MyV6FETEQlxWHzOut4g7ihwlk24dqN7EhgPbz2U\naOMxTuvmwnMOu7Y2gV+mlPdC6xI3dqKEN/bz7cxBw7MIGu5q31E6Ksxwdir9IXuF\n+Svo8L9VBS/cVGRfIFaDvUVQzryb0yoS1FAJAdJXnXfKTtFCcaYCZ1PjdpBSjceg\n5lm/tD3UjiZ2z+IUbSnaiWX6LAg0uhUL9785iBFppYEwfDi/W//RyE69IRtfPGld\nVVBZTnb7AgMBAAECggEABoYT1Np/4Xu9YLnM/VcvmI1ONrTdkkzcwhH7XgUriYnk\nVcak2uI3ul4LO0bCZFCg9rPhiLAIrF2hVarP/n0bRVX65Q6ieIkY+rPsLfrFr4vb\nu+lIMEQlIpH/zuNssrIv9EgSDumJeiOOr9acqvx/ZmSrcJaYaMgCvZAPmOmpd7Bo\n0CA4AjVZKbHE59HEtfO+vyiCZfNy9+iHnF3WnbUcvF65HNcke5fu08DfZdmKDM5y\nsrCw2yiZX9wGI9BQ4MNwvKV8Q8gW2t4U9QQPSvJTisP/YSx+ipQFAeggCn55Hfao\nP6FNcVvvmfN37egHmaX/60yNxmKXEGWoFqUoUhcsqQKBgQDuaFcQOzOMisT7khtQ\nMMhQE9E6JIZM6eKiBjF3yUgiZweQYd0w2MylodJd9xhxysUJHvCEJ2irr2PXg9O0\ngorss1YQKCUn01fTli/pzi1YoMrhs/J7r8IMPD5n/P/p18snidt7vmHNEVQ4DnYO\nmmpyJdns6fGM77O5/I7NVWhHswKBgQDksLFBNSSup0E03gi7Zrpl99Xl5GikEils\nat99F5h9HX9xPl7NqyCxPcWFQgBEhiLqCXSHGjlAGl68KNZ1DF+toSnClPPagcTt\ndkZvDM0pSYALzQTXLVDyZdj+jC+s0B1BQOBiAH0tmMVYg+b8FhMVQMCn+D+AyuAK\nEkEg2wdvmQKBgQDinhvkOeIOPfpwh7meyEAgnjXL5twiUFA1Y12yV4pR6U2vWNdA\nj1Q4PVISL8b0o6IXwWkutacxS07ElXKvq0cTKIUuZnqrGKHrZl+1B17jWDSBxuM/\n3xm9N6a6gitgxNc/hjMztQySOV6sylI+H1n/lytHoDkTluZobEHxvLWbMQKBgBwx\nB/jg4z/AkJJC2NK5TDsrvSuU561qK78Ywao7EWpDC6XbKXazJNmUotfVlhDcdEtj\nlQDeo7YaShlp814Eg3r1Bh/dmt4R50Pas74W1ufDDszlnjYkePkYwxJGF8527VRQ\n+hg6tTO8xH8v63aiBgI1tEpAmRt4Zvv22h6Bwb3pAoGAEW9iWXRMJqpIGPY2bHth\n5mOP5IRz+1WkP1eHsNkHhXnIcKFKJEncz/uFVHtHHOL9AiIDrPVuHJrq4iOw6YhO\nRTik09Mc5kyXZNXI4Y9u9EfdA4VWtcBnf/gA2Cuv8ty9QSIHs59xa6MQXx51m+sV\nIncYQnwUgNqcYQ0rArPkw3Y=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bigquery-admin@seismic-hexagon-445604-p7.iam.gserviceaccount.com",
+  "client_id": "110692765441172318103",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bigquery-admin%40seismic-hexagon-445604-p7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
