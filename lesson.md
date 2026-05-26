@@ -206,8 +206,8 @@ meltano add target-jsonl
 
 We can now test run the pipeline to see if it works.
 
-```bash
-meltano run tap-github target-jsonl
+cd resale_flat
+dbt debug
 ```
 
 The extracted data will be dumped into a JSON file in the `output/` directory.
