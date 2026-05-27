@@ -1,5 +1,5 @@
 default_environment: dev
-project_id: 019e68a9-1870-7d39-8014-06eaeafa89e1
+project_id: 019e69a9-c1f4-7ee7-bf6b-e2c60444debc
 environments:
 - name: dev
 - name: staging
@@ -7,26 +7,26 @@ environments:
 python: python3.11
 plugins:
   extractors:
-  - name: tap-github
+  - name: tap-postgres
     variant: meltanolabs
-    pip_url: meltanolabs-tap-github
+    pip_url: meltanolabs-tap-postgres
     config:
-      repositories:
-      - pandas-dev/pandas
+      database: postgres
+      filter_schemas:
+      - public
+      host: aws-1-ap-southeast-2.pooler.supabase.com
+      port: 5432
+      user: postgres.pwxnykvkqctmeailodbh
     select:
-    - releases.tag_name
-    - releases.body
-    - releases.published_at
+    - public-resale_flat_prices_from_jan_2017.*
   loaders:
-  - name: target-jsonl
-    variant: andyh1203
-    pip_url: target-jsonl
   - name: target-bigquery
     variant: z3z1ma
     pip_url: git+https://github.com/z3z1ma/target-bigquery.git setuptools<80
     config:
+      batch_size: 104857600
       credentials_path: /home/dsai/5m-data-2.6-data-pipelines-orchestration/meltano-ingestion/green-bedrock-469701-s1-f70c6da65812.json
-      dataset: ingestion
+      dataset: resale
       denormalized: true
       flattening_enabled: true
       flattening_max_depth: 1

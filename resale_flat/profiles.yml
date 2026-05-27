@@ -4,7 +4,7 @@ resale_flat:
       dataset: resale
       job_execution_timeout_seconds: 300
       job_retries: 1
-      keyfile: /Users/zanelim/Downloads/personal/secret/meltano-learn-03934027c1d8.json # Use your path of key file
+      keyfile: /home/dsai/5m-data-2.6-data-pipelines-orchestration/meltano-ingestion/green-bedrock-469701-s1-f70c6da65812.json # Use your path of key file
       location: US
       method: service-account
       priority: interactive
