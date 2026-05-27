@@ -1,16 +1,6 @@
 default_environment: dev
-project_id: 019e67f2-cce9-74f6-aa50-f707d9dd46be
+project_id: 019e6864-9000-7511-9de4-63cb349a4656
 environments:
 - name: dev
 - name: staging
 - name: prod
-python: python3.11
-plugins:
-  extractors:
-  - name: tap-gitlab
-    variant: meltanolabs
-    pip_url: git+https://gitlab.com/meltano/tap-gitlab.git
-    config:
-      repositories:
-      - pandas-dev/pandas
-
