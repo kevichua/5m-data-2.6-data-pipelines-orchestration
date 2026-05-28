@@ -28,3 +28,15 @@ Happy modeling!
 [0m21:32:01.365451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a148cf7eb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a148cf904d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a14917c3590>]}
 [0m21:32:01.367766 [debug] [MainThread]: Flushing usage events
 [0m21:32:02.475258 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:27:40.324271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aecd08190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aecd08590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aea0c1150>]}
+
+
+============================== 00:27:40.352334 | 1c0b4e2e-d2dc-47a5-b8f1-d1ab0179b772 ==============================
+[0m00:27:40.352334 [info ] [MainThread]: Running with dbt=1.10.9
+[0m00:27:40.353726 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'empty': 'None', 'log_cache_events': 'False', 'warn_error': 'None', 'version_check': 'True', 'introspect': 'True', 'write_json': 'True', 'quiet': 'False', 'debug': 'False', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'use_experimental_parser': 'False', 'no_print': 'None', 'printer_width': '80', 'fail_fast': 'False', 'static_parser': 'True', 'log_path': 'logs', 'profiles_dir': '/home/dsai/.dbt', 'cache_selected_only': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'invocation_command': 'dbt init resale_flat', 'send_anonymous_usage_stats': 'True'}
+[0m00:27:40.396534 [info ] [MainThread]: A project called resale_flat already exists here.
+[0m00:27:40.400620 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.22970834, "process_in_blocks": "105152", "process_kernel_time": 1.380104, "process_mem_max_rss": "100480", "process_out_blocks": "16", "process_user_time": 2.906523}
+[0m00:27:40.401638 [debug] [MainThread]: Command `dbt init` succeeded at 00:27:40.401418 after 0.23 seconds
+[0m00:27:40.402408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aea0c03d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aea0bae50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aea127ad0>]}
+[0m00:27:40.403270 [debug] [MainThread]: Flushing usage events
+[0m00:27:41.139312 [debug] [MainThread]: An error was encountered while trying to flush usage events
